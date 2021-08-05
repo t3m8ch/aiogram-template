@@ -4,9 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Kudyakov Artem <t3m8ch@yandex.ru>"]
 license = "MIT"
-packages = {
+packages = [
     { include = "app" }
-}
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
