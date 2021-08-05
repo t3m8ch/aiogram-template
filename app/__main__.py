@@ -36,7 +36,6 @@ def _get_fsm_storage(fsm_config: Optional[FSMConfig]) -> BaseStorage:
         return MemoryStorage()
 
     if fsm_config.use_redis:
-        print("dfdf")
         return RedisStorage2()
 
     return MemoryStorage()
