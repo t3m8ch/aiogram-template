@@ -13,6 +13,7 @@ python = "^3.9"
 pydantic = "^1.8.2"
 pydantic_loader = {extras = ["toml"], version = "^0.9.1"}
 aiogram = "^2.14.3"
+aioredis = "^1.3.1"
 
 [tool.poetry.dev-dependencies]
 
